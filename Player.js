@@ -1,0 +1,24 @@
+class Player{
+    constructor(x,y){
+        this.x=x;
+        this.y=y;
+        this.spt=createSprite(this.x,this.y,50,50);
+        this.spt.shapeColor="white";
+        this.spt.addImage("playe",playerI)
+        this.spt.scale=0.1;
+    }
+    movement(){
+        if(keyDown("up")){
+            this.spt.y=this.spt.y-50;
+        }
+        if(keyDown("down")){
+            this.spt.y=this.spt.y+50;
+        }
+        if(keyDown("left")){
+            this.spt.x=this.spt.x-50;
+        }
+        if(keyDown("right")){
+            this.spt.x=this.spt.x+50;
+        }
+    }
+}
