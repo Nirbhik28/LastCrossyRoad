@@ -15,11 +15,11 @@ var WON=2;
 var sound;
 var pic ,picc;
 function preload()
-{car1I=loadImage("images/car1.png");
-car2I=loadImage("images/car2.png");
-log1I=loadImage("images/log1.png");
-log2I=loadImage("images/city1.png");
-playerI=loadImage("images/play.png");
+{car1I=loadImage("car1.png");
+car2I=loadImage("car2.png");
+log1I=loadImage("log1.png");
+log2I=loadImage("city1.png");
+playerI=loadImage("play.png");
 sound=loadSound("sfx_celebrate.wav");
 picc=loadImage("VICORY.png")
 }
